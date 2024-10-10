@@ -2,9 +2,10 @@ package ca.nl.cna.saunders;
 
 import java.util.Scanner;
 
-public class FunWithArithmaticOpperations {
+public class FunWithComparions {
 
     public static void main(String[] args) {
+        System.out.println("Fun with comparisons");
 
         System.out.println("fun with arithmatic opperations!");
 
@@ -16,12 +17,14 @@ public class FunWithArithmaticOpperations {
         System.out.println("Please enter another number: ");
         int y = input.nextInt();
 
-        int sum = x + y;
+        if(x== y) {
+            System.out.printf("%d == %d", x, y);
+        }
 
-        System.out.printf("\nValue input: %d", sum);
+        if(x != y){
+            System.out.printf("");
 
 
-
-
+        }
     }
 }
