@@ -1,6 +1,6 @@
 
 /**
- * java assignment 3 - cp228, fall 2024
+ * java assignment 3 - cp2280, fall 2024
  *
  * this pakage contains 3 classes:
  * Product.java - represents the product that has an id, a price and a description.
