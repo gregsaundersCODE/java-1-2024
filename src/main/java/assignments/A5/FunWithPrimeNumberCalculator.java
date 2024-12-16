@@ -32,7 +32,7 @@ public class FunWithPrimeNumberCalculator {
                 int maxLimit = scanner.nextInt();
                 System.out.println("The prime numbers up to " + maxLimit + "are:");
                 for (int num = 2; num <= maxLimit; num++) {
-                    if (PrimeNumberCalculator.isPrimenumber(num)) {
+                    if (PrimeNumberCalculator.isPrime(num)) {
                         System.out.print(num + " ");
                     }
                 }
@@ -49,7 +49,7 @@ public class FunWithPrimeNumberCalculator {
                 int upper = scanner.nextInt();
                 System.out.println("Prime numbers between " + lower + " and " + upper + ":");
                 for (int num = lower; num <= upper; num++) {
-                    if (PrimeNumberCalculator.isPrimenumber(num)) {
+                    if (PrimeNumberCalculator.isPrime(num)) {
                         System.out.print(num + " ");
                     }
                 }

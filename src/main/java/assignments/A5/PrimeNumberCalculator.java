@@ -7,7 +7,7 @@ public class PrimeNumberCalculator {
      * @param number
      * @return false or true
      */
-    public static boolean isPrimenumber(int number) {
+    public static boolean isPrime(int number) {
         if (number <= 1) {
             return false;
         }
@@ -25,7 +25,6 @@ public class PrimeNumberCalculator {
      * @param number
      * @return string
      */
-    @org.jetbrains.annotations.NotNull
     public static String getUniquePrimeFactorization(int number) {
         if (number <= 1) {
             return "No prime factorization for numbers that are <= 1.";
